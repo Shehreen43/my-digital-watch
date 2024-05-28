@@ -1,0 +1,33 @@
+{
+	"name": "my-digital-watch",
+	"version": "1.0.0",
+	"description": "A digital watch created with HTML, CSS, and TypeScript.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc",
+		"start": "main.js",
+		"prepare": "npm run build",
+		"serve": "live-server public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Shehreen43/my-digital-watch.git"
+	},
+	"keywords": [
+		"digital",
+		"watch",
+		"html",
+		"css",
+		"typescript"
+	],
+	"author": "shehreen",
+	"license": "MIT",
+	"homepage": "https://github.com/Shehreen43/my-digital-watch#readme",
+	"dependencies": {
+		"inquirer": "^9.2.22",
+		"typescript": "^4.0.0",
+		"live-server": "^1.2.1"
+	}
+}
